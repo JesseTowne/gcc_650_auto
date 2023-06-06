@@ -77,7 +77,7 @@ mkdir build && cd build
 make && make install  # 此过程非常长，请保证电脑电量并耐心等待！
 
 cd ~
-add_context_inf="export PATH=/home1/${usr}/${path}/gcc-6.5.0/bin:\$PATH"
+add_context_inf="export PATH=/home1/${usr}/${path}/gcc-6.5.0/bin:$PATH"
 echo $add_context_inf >> ~/.bashrc
 
 source .bashrc
